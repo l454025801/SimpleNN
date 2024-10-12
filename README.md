@@ -10,7 +10,7 @@ int main(){
   //create SiN object
   SimpleNN YourNetwork;
   
-  // add layer, set cost, parameter initiator, iteration times, learning rate;
+  // add layer, set cost function, parameter initiator, iteration times, learning rate;
   SimpleNN.add_layer(num_of_neuron, "activation_type")
   SimpleNN.set_cost("Binary Cross-entropy");
   SimpleNN.set_initiator("HE");
